@@ -20,7 +20,7 @@ struct ContentView: View {
 
                     Button(action: {
                         viewModel.addTask(title: newTaskTitle)
-                        newTaskTitle = ""
+                        newTaskTitle = " "
                     }) {
                         Image(systemName: "plus")
                             .padding(8)
